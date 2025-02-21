@@ -1,0 +1,45 @@
+NAMA		:Sania Agustin
+NIM		    :0110124180
+ROMBEL 		:SI 04
+PRAKTIKUM	:PEMOGRAMAN WEB 2
+
+1. Jelaskan apa yang dimkasud dengan dokumen root ?
+jawab : Dokumen Root adalah lokasi folder dimana tempat file website untuk nama domain disimpan	atau sebuah folder Utama dalam dalam sebuah system atau aplikasi yang berfungsi sebagai titik awal.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs?
+jawab : Dalam konfigurasi default XAMPP, direktori C:\xampp\htdocs adalah tempat penyimpanan file web Anda, yang sudah diset di dalam konfigurasiApache.Namun, Anda dapat mengubah lokasi dokumen root sesuai kebutuhan dengan mengonfigurasi file httpd.conf Apache.meskipun C:\xampp\htdocs adalah lokasi default, Anda dapat mengubahnya sesuai dengan kebutuhan, asalkan Anda sudah mengonfigurasi Apache dengan benar untuk mencocokkan path baru.
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push
+dan checkout
+jawab : a. git init : Perintah ini digunakan untuk menginisialisasi sebuah repository Git di dalam sebuah direktori. 
+	    b. git clone : Perintah untuk menduplikasi repositori yang sudah ada ke dalam direktori lokal
+	    c. git remote :Perintah ini digunakan untuk mengelola remote repository. Remote repository adalah repository Git 			yang ada di server, seperti GitHub atau GitLab.
+	    d. git add : Perintah ini digunakan untuk menambahkan perubahan pada file yang sudah dimodifikasi ke staging area. 			Staging area adalah tempat yang menampung perubahan yang siap untuk di-commit.
+	    e. git commit : Perintah ini digunakan untuk menyimpan snapshot dari perubahan yang ada di staging area ke dalam 			repository. Setiap commit akan memiliki pesan yang menjelaskan perubahan yang dilakukan.
+	    f. git push   : Perintah ini digunakan untuk mengirimkan commit yang telah dibuat di repository lokal ke remote 
+			repository, misalnya di GitHub atau GitLab.
+	    g. git checkout : Perintah ini digunakan untuk berpindah antar cabang (branch) di dalam repository. Selain itu, 			git checkout juga digunakan untuk membatalkan perubahan pada file yang belum di-commit.
+4. Jelaskan perbedaan antara GitHub dan GitLab?
+jawab : GitHub:
+	        a. Fokus utama pada hosting proyek open-source.
+	        b. Banyak digunakan oleh komunitas pengembang untuk berbagi kode dan kolaborasi.
+	        c. Menyediakan layanan gratis dengan batasan tertentu dan versi berbayar dengan fitur tambahan.
+	        d. Dikenal karena integrasi dengan berbagai alat dan memiliki lebih banyak pengguna aktif.
+	    GitLab:
+	        a. Menyediakan platform CI/CD (Continuous Integration/Continuous Delivery) yang lebih terintegrasi.
+	        b.GitLab lebih cocok untuk pengelolaan proyek internal di perusahaan, dengan lebih banyak fitur untuk manajemen   	  kode, pengujian, dan peluncuran aplikasi.
+	        c. Menawarkan versi self-hosted (dapat diinstal di server pribadi) selain versi cloud.
+
+5. Apa bedanya variable user dengan variable system ?
+jawab : Variabel User: 
+        Variabel yang didefinisikan oleh pengguna di dalam sistem operasi. Nilai variabel ini hanya berlaku untuk sesi pengguna tertentu dan tidak mempengaruhi pengguna lain. Contoh: variabel yang berisi pengaturan untuk aplikasi atau lingkungan kerja pribadi.
+
+        Variabel Sistem: 
+        Variabel yang didefinisikan oleh sistem operasi dan berlaku secara global untuk semua pengguna pada sistem tersebut. Variabel ini berisi pengaturan yang memengaruhi seluruh lingkungan sistem, seperti jalur direktori untuk perangkat lunak yang terinstal.
+
+6. Apa persamaan variable system dengan variable constant ?
+jawab : Persamaan antara variabel sistem dan variabel konstan adalah keduanya memiliki nilai yang tetap atau tidak berubah setelah didefinisikan.
+        Variabel Sistem: Biasanya berisi pengaturan atau informasi yang berlaku global di seluruh sistem, seperti jalur direktori atau konfigurasi sistem lainnya yang tidak berubah kecuali ada perubahan konfigurasi.
+        Variabel Konstan: Merupakan nilai yang tidak dapat diubah selama eksekusi program. Biasanya didefinisikan dengan tujuan untuk menjaga konsistensi nilai yang digunakan dalam program.
+
+Keduanya memiliki sifat tidak berubah, meskipun konteksnya berbeda (sistem operasi vs.pemograman)
